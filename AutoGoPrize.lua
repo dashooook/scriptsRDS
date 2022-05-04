@@ -112,7 +112,7 @@ function imgui.OnDrawFrame()
 end
 
 function msg(text)
-    sampAddChatMessage("{9966FF}[AutoGoPrize]: "..text)
+    sampAddChatMessage("{9966FF}[AutoGoPrize]: {FFFF99}"..text)
 end
 
 function sampev.onServerMessage(color, text)
